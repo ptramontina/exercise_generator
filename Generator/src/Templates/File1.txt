@@ -1,0 +1,46 @@
+# Printing repeated strings
+
+### code: str001
+### level: simple
+### topic: pedro
+### tags: for hihi
+
+## Parameters
+
+<input string>
+<n = fixed integer [2-6]>
+<c = fixed char ['a'-'z']>
+<d = fixed double [0.0-2.0]>
+<s = fixed string ["abc", "def", "ghi", "jkl"]>
+<b = fixed boolean>
+
+## Description
+
+Write a program that asks a string **s** from the user and then prints it **${n}** times
+on the screen, all in a single line and with no spaces between.
+
+## Pseudocode
+
+    declare string s
+    declare real asd
+    
+    
+    asd = 2.0
+    
+    declare integer i
+    for i from 1 up to 5 step 1
+        read s
+        read asd
+        print asd
+    
+    println ""
+
+
+## Expected results
+
+- An input of **"abc"** should result in: **"abcabcabc"**
+
+## Hints
+
+- Print something
+- Print ${n}

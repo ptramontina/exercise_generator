@@ -1,0 +1,39 @@
+# Printing repeated strings
+
+### code: str002
+### level: simple
+### topic: haha
+### tags: string
+
+## Parameters
+
+<input string>
+<n = fixed integer [2-6]>
+<c = fixed char ['a'-'z']>
+<d = fixed double [0.0-2.0]>
+<s = fixed string ["abc", "def", "ghi", "jkl"]>
+<b = fixed boolean>
+
+## Description
+
+Write a program that asks a string **s** from the user and then prints it **${s}** times
+on the screen, all in a single line and with no spaces between.
+
+## Pseudocode
+
+    declare string s
+    read s
+    declare integer i
+    for i from 1 up to ${n} step 1
+        print s
+    println ""
+
+## Expected results
+
+- An input of **"abc"** should result in: **"abcabcabc"**
+
+## Hints
+
+- Use a repetition, counting from 1 to **<n>**.
+- Use o operador **+** para concaternar strings.
+- A string resultante é criada como um acumulador, que começa com **""**.
