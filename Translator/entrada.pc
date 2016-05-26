@@ -1,0 +1,13 @@
+declare string s
+declare real asd
+
+
+asd = 2.0
+
+declare integer i
+for i from 1 up to 5 step 1
+    read s
+    read asd
+    print asd
+
+println ""

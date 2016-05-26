@@ -1,0 +1,15 @@
+- deve ser declarada uma variavel do tipo <tipo> (basico) ok ok
+- operadores de comparação (basico) ok
+- print, println ok
+- if ok
+- while ok
+
+- deve ser usado o operador módulo (medio) ok
+- operadores lógicos (medio) ok
+- deve usar read ok
+- for (up to | down to) ok
+
+- pi (avançado) ok
+- gerar numero aleatorio (avançado) ok
+- utilizar exponenciação/potencia (avançado) ok
+- if / else / while / for encadeado ok

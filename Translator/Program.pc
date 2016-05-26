@@ -1,0 +1,30 @@
+
+declare string name
+declare integer grade
+declare integer avg
+declare integer cont
+
+avg = 0
+
+print "Insert your name"
+read_str name
+
+for cont from 1 to 5 step 1
+    begin
+        print "Insert grade"
+        read_int grade
+        avg = sum + grade
+    end
+
+avg = avg / 3
+
+print name
+print avg
+if avg greater than 8
+    begin
+        print "You have passed"
+    end
+else
+    begin
+        print "You have failed"
+    end
